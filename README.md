@@ -1,4 +1,4 @@
-# Packer
+# Packer-Slim
 
 [![Build Status][travis-badge]][travis]
 [![Windows Build Status][appveyor-badge]][appveyor]
@@ -13,6 +13,14 @@
 [godoc]: https://godoc.org/github.com/hashicorp/packer
 [report-badge]: https://goreportcard.com/badge/github.com/hashicorp/packer
 [report]: https://goreportcard.com/report/github.com/hashicorp/packer
+
+# NOTICE
+This is a slim fork of Hashcorp's
+[Packer]("https://github.com/hashicorp/packer") to reduce required dependences
+so to enable compatibility within the project
+[Tarmak]("https://github.com/jetstack/tarmak").
+
+--
 
 * Website: https://www.packer.io
 * IRC: `#packer-tool` on Freenode
