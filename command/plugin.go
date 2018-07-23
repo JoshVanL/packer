@@ -73,7 +73,7 @@ import (
 	//puppetmasterlessprovisioner "github.com/hashicorp/packer/provisioner/puppet-masterless"
 	//puppetserverprovisioner "github.com/hashicorp/packer/provisioner/puppet-server"
 	//saltmasterlessprovisioner "github.com/hashicorp/packer/provisioner/salt-masterless"
-	//shellprovisioner "github.com/hashicorp/packer/provisioner/shell"
+	shellprovisioner "github.com/hashicorp/packer/provisioner/shell"
 	//shelllocalprovisioner "github.com/hashicorp/packer/provisioner/shell-local"
 	//windowsrestartprovisioner "github.com/hashicorp/packer/provisioner/windows-restart"
 	//windowsshellprovisioner "github.com/hashicorp/packer/provisioner/windows-shell"
@@ -129,7 +129,7 @@ var Provisioners = map[string]packer.Provisioner{
 	//"puppet-masterless": new(puppetmasterlessprovisioner.Provisioner),
 	//"puppet-server":     new(puppetserverprovisioner.Provisioner),
 	//"salt-masterless":   new(saltmasterlessprovisioner.Provisioner),
-	//"shell":             new(shellprovisioner.Provisioner),
+	"shell": new(shellprovisioner.Provisioner),
 	//"shell-local":       new(shelllocalprovisioner.Provisioner),
 	//"windows-restart":   new(windowsrestartprovisioner.Provisioner),
 	//"windows-shell":     new(windowsshellprovisioner.Provisioner),
